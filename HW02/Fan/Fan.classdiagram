@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="83bc9ba3-af84-420d-bed7-67c099df95e7" name="Fan" linkedPackageId="173eea62-f0c2-4b20-9b32-8074e0316d0b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="fc60d5e3-2f39-4ba2-9047-36ecd60ad335">
+      <profileInstance Id="db127039-b260-4b67-a7b5-2ea249a87fae" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b6ef97ed-8438-4548-a418-86c22326f99a">
+      <profileInstance Id="529184de-5b10-488e-b2d6-ce90e0b3a8a4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0cf9d1db-2086-4405-8f39-c3acd320a652" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="574a34fd-8291-49bf-848d-147f87fdcdfb" />
+        <ownedAttributesInternal>
+          <property Id="7684c1f1-3c2e-43a1-bfc2-5a44498cf2ab" name="int speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="60bd9be6-2bd2-41bf-8695-6ab2233bf02d" />
+          </property>
+          <property Id="de3dd606-df86-42ae-ba7f-d2db48688ba0" name="bool on" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82f865ea-1917-490a-b3cc-dd934f359be9" />
+          </property>
+          <property Id="02c7a8d3-e3e2-49dd-be27-ca53b6d56d8c" name="double radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c5d7dedf-36d8-4953-b08b-99298d48f8f9" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="474c67db-491e-4402-8058-bcba485282e9" name="int setSpeed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2b25ff21-1694-4f17-9121-cf92b90e1100" />
+          </operation>
+          <operation Id="c4c9bb3c-11d0-4f50-b065-3c6d7c5c6bc1" name="bool setOn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bcc2c66f-2b5f-4c10-8efa-1402a578991a" />
+          </operation>
+          <operation Id="c3c18abd-ce23-42e2-9c1d-d2d3348c3e24" name="double setRadius" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="38ed0530-1e31-419b-8b81-7782f1d7d390" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="173eea62-f0c2-4b20-9b32-8074e0316d0b" name="Fan">
+    <elementDefinition Id="103f11a7-1c80-42e3-b96a-4236d3f46543" />
+  </package>
+</logicalClassDesignerModel>

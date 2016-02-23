@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Fan">
+  <logicalClassDesignerModelMoniker Id="83bc9ba3-af84-420d-bed7-67c099df95e7" />
+  <nestedChildShapes>
+    <classShape Id="42d25c60-8c3c-4a71-8936-6c9b5dd5ef35" absoluteBounds="3, 0.875, 1.5, 1.8632812052965169" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="0cf9d1db-2086-4405-8f39-c3acd320a652" LastKnownName="Class1" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="c6f8ed75-96c9-4f56-890f-be2222cbdbe4" absoluteBounds="3.015, 1.2650000000000001, 1.4700000000000002, 0.68164060264825821" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="c48d2750-de33-4f2e-886d-3b656367cda6" absoluteBounds="3.015, 1.9566406026482586, 1.4700000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
